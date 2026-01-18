@@ -1,0 +1,19 @@
+# Python önbellek dosyaları (Gereksiz)
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook önbellekleri
+.ipynb_checkpoints/
+
+# Veri Dosyaları (BUNLARI SAKIN YÜKLEME!)
+*.csv
+*.data
+*.bin
+
+# Sanal Ortam (Varsa)
+venv/
+env/
+.env
+
+# İşletim Sistemi Çöpleri
+.DS_Store

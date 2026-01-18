@@ -58,18 +58,3 @@ class DB:
 
             self.index[key] = baslangic_konum
 
-db = DB()
-
-print("Girdiler:")
-db.yaz("kullanici_1", "Ali")
-db.yaz("kullanici_2", "Veli")
-
-print("Okunuyor")
-gelen_veri = db.oku("kullanici_1")
-print(f"kullanici_1: {gelen_veri}")
-print(f"kullanici_1 için veritabanından gelen değer: {gelen_veri}")
-
-print(f"Olmayan veri testi: {db.oku("mehmet")}")
-
-print("--- Hafıza Testi ---")
-print(f"kullanici_1: {db.oku('kullanici_2')}")
