@@ -1,4 +1,4 @@
-# PyCask: High-Performance Big Data Sampling Engine
+# DataSip: High-Performance Big Data Sampling Engine
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -12,7 +12,7 @@
 
 In traditional Data Science workflows, loading massive CSV files (e.g., 50GB+) into tools like Pandas often results in `MemoryError`. Distributed systems like Apache Spark or Dask can solve this but require complex setup and infrastructure.
 
-**PyCask** bridges this gap for local development. It converts row-oriented data into an indexed binary format, allowing for **O(1) Random Access**. This enables the system to fetch a statistically significant sample in milliseconds without scanning the entire file.
+**DataSip** bridges this gap for local development. It converts row-oriented data into an indexed binary format, allowing for **O(1) Random Access**. This enables the system to fetch a statistically significant sample in milliseconds without scanning the entire file.
 
 ### Key Features
 * **Out-of-Core Processing:** Works with datasets significantly larger than RAM.
