@@ -72,7 +72,7 @@ This project is designed as a specialized tool, not a general-purpose database.
 ### 1. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/PyCask-Sampler.git](https://github.com/YOUR_USERNAME/PyCask-Sampler.git)
+git clone [https://github.com/Toricicim/PyCask-Sampler.git](https://github.com/Toricicim/PyCask-Sampler.git)
 cd PyCask-Sampler
 pip install -r requirements.txt
 ```
